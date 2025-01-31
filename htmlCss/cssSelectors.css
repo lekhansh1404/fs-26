@@ -1,0 +1,60 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* li {
+    color: red;
+} */
+/* child selectors */
+#green {
+    color: green;
+}
+
+
+/* .red{
+    color: red;
+} */
+
+/* grouping selectors*/
+/* #red, h2{
+    color: red;
+} */
+
+
+/* child selectors(>)
+    propeties will be applied to direct child only */
+/* .top>h1 {
+       color: purple;
+} */
+
+/* .top > ul > h1 {
+    border: 1px solid;
+    color: red;
+} */
+
+/* .top > section > ul > h1 {
+    border: 1px solid;
+} */
+
+/* descendants 
+   - Properties will be applied to every selected child tag*/
+/* .top h1 {
+    font-size: 30px;
+} */
+
+/* .top ul h1 {
+    border: 1px solid;
+} */
+
+/* shahrukh khan */
+
+/* h1 ~ p {
+    color: purple;
+}
+
+h1 + p {
+    color: red;
+} */
