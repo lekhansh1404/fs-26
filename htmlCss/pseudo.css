@@ -1,0 +1,25 @@
+/* Psuedo classes: which will not exist in html still we use in css 
+- first-child = first-of-type
+- last-child = last-of-type
+- nth-child() = nth-of-type()*/
+
+/* li:first-child {
+    color: purple;
+}
+
+li:last-child {
+    color:red;
+} */
+
+/* li:nth-child(2){
+    color: green;
+} */
+
+/* color at odd and even case */
+li:nth-child(2n){
+    color: orangered;
+}
+
+li:nth-child(2n+1){
+    color: green;
+}

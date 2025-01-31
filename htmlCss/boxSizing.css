@@ -1,3 +1,19 @@
 /* Box Model States
 -everything in css is a box
-- */
+- 
+- box sizing: content-box: is a default behaviour
+- box-sizing: border-box: include the border and padding inside the width
+- area occupied by box = (width/height + padding + border) + margin 
+Most block type elements carry their default margins or padding */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box {
+    /* here border and margin will be adjusted in 300px bcoz of box-sizing */
+    border: 2px solid red;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+}
